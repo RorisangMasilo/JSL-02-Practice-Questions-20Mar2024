@@ -1,10 +1,8 @@
-For question 1, please explain it in your own words.
-For question 2, please present and explain your code.
+## 1. Discuss the purpose of the typeof operator in JavaScript and how it can be used. Please explain it in your own words.
+## 2. How can the style/class of an element be changed using DOM Manipulation? Write a function for this. Please present and explain your code.
 
-1. Discuss the purpose of the typeof operator in JavaScript and how it can be used.
-2. How can the style/class of an element be changed using DOM Manipulation? Write a function for this
 
-# Purpose and Usage of the typeof Operator in JavaScript
+### Purpose and Usage of the typeof Operator in JavaScript
 
 1. **Definition and Purpose**:
 
