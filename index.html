@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
+// Or you can simply add defer to script at the top instead of moving it:
 
+/* <html>  
+    <head>
+        <title>DOM Manipulation Example</title>
+        <script defer src="index.js"></script>
+        <style>
+          .highlight {
+            background-color: yellow;
+            color: black;
+          } */
+        
 <head>
     <title>DOM Manipulation Example</title>
     <script src="index.js"></script>
@@ -26,3 +37,36 @@
 </body>
 
 </html>
+
+/* So in index.html, put the script tag at the end of the file to load it after the DOM has loaded.
+Also there is an h1 closing tag not related to anything which can be safely removed.
+Here's the updated index.html code: */
+
+/* <!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Manipulation Example</title>
+
+    <style>
+      .highlight {
+        background-color: yellow;
+        color: black;
+      }
+
+      .header {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="myHeading">Hello, World</h1>
+
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="changeClass()">Change Class</button>
+    <button onclick="toggleClass()">Toggle Class</button>
+  </body>
+  <script src="index.js"></script>
+</html> */
+
